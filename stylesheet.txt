@@ -1,0 +1,77 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-2Coding {
+    width: 45px;
+    height: 46px;
+    background-position: -5px -5px;
+}
+
+.sprite-3Games {
+    width: 45px;
+    height: 46px;
+    background-position: -60px -5px;
+}
+
+.sprite-4Cart {
+    width: 45px;
+    height: 46px;
+    background-position: -115px -5px;
+}
+
+.sprite-4Responciv {
+    width: 45px;
+    height: 46px;
+    background-position: -5px -61px;
+}
+
+.sprite-6Gift {
+    width: 45px;
+    height: 46px;
+    background-position: -60px -61px;
+}
+
+.sprite-github {
+    width: 30px;
+    height: 30px;
+    background-position: -115px -61px;
+}
+
+.sprite-gmail {
+    width: 30px;
+    height: 30px;
+    background-position: -115px -101px;
+}
+
+.sprite-lamp {
+    width: 45px;
+    height: 46px;
+    background-position: -170px -5px;
+}
+
+.sprite-linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -155px -61px;
+}
+
+.sprite-stackoverflow {
+    width: 30px;
+    height: 30px;
+    background-position: -155px -101px;
+}
+
+.sprite-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -141px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -141px;
+}

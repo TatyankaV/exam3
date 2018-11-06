@@ -1,0 +1,1 @@
+$('.slider').slick({appendArrows: ".slider-nav"});
