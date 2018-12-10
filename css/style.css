@@ -2,6 +2,7 @@
     margin: 0 auto;
     max-width: 1366px;
 }
+
 .sectionOne{
     background: url(../img/bg1all.png) no-repeat;
     margin: 0 auto;
@@ -9,6 +10,7 @@
     min-height: 890px;
     /* padding: 30px 30px 30px 200px; */
      color: white;
+     position: relative;
 }
 .header{
     padding-top: 20px;
@@ -18,6 +20,12 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.btn-menu{
+   margin-left: 50px;
+   position: relative;
+}
+
+
 .logoGoogleStore{
     top: 5px;
 }
@@ -42,15 +50,24 @@
     text-transform: uppercase;
     list-style: none;
     justify-content: space-between;
+    text-align: right;
+    position: relative;
+}
+.Xmenu{
+    display: none;
 }
 input[type="checkbox"] {
     display: none;
 }
+
 nav label{
     display: none; 
     padding: 5px 10px;
     cursor: pointer;
     transition: 0.3s
+}
+.img_x{
+    display: none;
 }
 
 @media screen and (max-width: 780px){
@@ -61,23 +78,46 @@ nav label{
     .menu-list{
         display: none;
     }
+    
  /* .menu-list:hover {
     display: flex;
     flex-direction: column;
     } */
     input[type="checkbox"]:checked ~ label + ul {
+
         display: block;
+        position: absolute;
+    }
+
+    input[type="checkbox"]:checked ~ label > img.img_x {
+        display: block;
+    }
+
+    input[type="checkbox"]:checked ~ label > img.img_hum {
+        display: none;
     }
     
 }
+
+.nav > ul{
+    position: absolute;
+    }
 .line{
     margin:20px auto;
     height: 2px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.404);
-    opacity: 90%;
+    background: rgba(255, 255, 255, 0.308);
     margin-bottom: 280px;
 }
+
+@media screen and (max-width: 780px){
+
+.line{
+    background: rgba(255, 255, 255, 0);
+}
+
+}
+
 .header-content{
     display: flex;
     flex-direction: column;
@@ -87,6 +127,8 @@ nav label{
     /* max-height: 180px; */
     font: 16px;
     color: white;
+    position: relative;
+    
 }
 .header-text{
     display: flex;
@@ -126,8 +168,9 @@ nav label{
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     max-width: 320px;
+    min-width: 300px;
 }
 @media screen and (max-width: 450px){
     /* .header-btn2{
@@ -136,6 +179,7 @@ nav label{
     .header-btn{
         display: flex;
         flex-wrap: wrap;
+        
     }
 }
 
@@ -512,6 +556,7 @@ line-height: 20px;
 }
 
 @media only screen and (max-width: 900px){
+    
     .sectionSeven{
         background: rgba(190, 234, 255, 0.13);
     }
@@ -569,7 +614,7 @@ line-height: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .line-footer{
     height: 3px;
@@ -580,7 +625,7 @@ line-height: 20px;
    margin-bottom: 30px;
 }
 .footer_title{
-    color: rgb(63, 63, 63);
+    color: rgb(26, 25, 25);
     font: 20px sans-serif; 
 }
 .footer__1{
