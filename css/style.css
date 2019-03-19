@@ -2,7 +2,6 @@
     margin: 0 auto;
     max-width: 1366px;
 }
-
 .sectionOne{
     background: url(../img/bg1all.png) no-repeat;
     margin: 0 auto;
@@ -24,8 +23,6 @@
    margin-left: 50px;
    position: relative;
 }
-
-
 .logoGoogleStore{
     top: 5px;
 }
@@ -53,13 +50,9 @@
     text-align: right;
     position: relative;
 }
-.Xmenu{
-    display: none;
-}
 input[type="checkbox"] {
     display: none;
 }
-
 nav label{
     display: none; 
     padding: 5px 10px;
@@ -69,36 +62,26 @@ nav label{
 .img_x{
     display: none;
 }
-
 @media screen and (max-width: 780px){
-
     nav label{
     display: inline-block;
     }
     .menu-list{
         display: none;
     }
-    
- /* .menu-list:hover {
-    display: flex;
-    flex-direction: column;
-    } */
+
     input[type="checkbox"]:checked ~ label + ul {
 
         display: block;
         position: absolute;
     }
-
     input[type="checkbox"]:checked ~ label > img.img_x {
         display: block;
     }
-
     input[type="checkbox"]:checked ~ label > img.img_hum {
         display: none;
     }
-    
 }
-
 .nav > ul{
     position: absolute;
     }
@@ -109,7 +92,6 @@ nav label{
     background: rgba(255, 255, 255, 0.308);
     margin-bottom: 280px;
 }
-
 @media screen and (max-width: 780px){
 
 .line{
@@ -128,7 +110,6 @@ nav label{
     font: 16px;
     color: white;
     position: relative;
-    
 }
 .header-text{
     display: flex;
@@ -141,9 +122,7 @@ nav label{
     display: flex;
     flex-direction: row;
 }
-
 @media screen and (max-width:450px){
-
     .header-text-h1{
         display: flex;
        flex-direction: column;
@@ -173,16 +152,11 @@ nav label{
     min-width: 300px;
 }
 @media screen and (max-width: 450px){
-    /* .header-btn2{
-     margin-left: 0px;   
-    } */
     .header-btn{
         display: flex;
         flex-wrap: wrap;
-        
     }
 }
-
 .sectionOne-button{
     border:none;
     background: white;
@@ -194,11 +168,10 @@ nav label{
 .sectionOne-button:hover{
     background: rgba(41, 127, 161, 0.411);
 }
-
 .TextTitle{
-text-align: center;
-padding-top: 25px ;
-font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding-top: 25px ;
+    font-family: 'Roboto Slab', serif;
 }
 .TextTitle__p{
     color: rgb(167, 166, 166);
@@ -243,7 +216,7 @@ font-family: 'Roboto Slab', serif;
     margin-bottom: 15px;
 }
 .sectionTwice-categoryText{
-line-height: 20px;
+    line-height: 20px;
 }
 @media only screen and (max-width: 1240px){
     .sectionThree-unlimited__img{
@@ -252,7 +225,6 @@ line-height: 20px;
     .sectionThree-unlimited__text-content{
         margin: 0 10px;
     }
-  
 }
 .TextTitle__h3{
     font: 25px sans-serif;
@@ -266,8 +238,6 @@ line-height: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    /* align-items: flex-start; */
     text-align: left;
     height: 700px;
     width: 100%;
@@ -384,11 +354,10 @@ line-height: 20px;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto 30px;
-    
 }
-
 @media only screen and (max-width: 920px){
-.services{
+
+    .services{
     margin: 0 auto;
     }
 }
@@ -410,7 +379,6 @@ line-height: 20px;
     rgb(102, 212, 244);
     margin-bottom: 50px;
 }
-
 .slider{
     position: relative;
     max-width: 600px;
@@ -426,7 +394,6 @@ line-height: 20px;
     display: flex;
     background: rgb(255, 255, 25512, 143, 143);
     justify-content: space-between;
-    
 }
 .slide_content{
     padding: 60px ;
@@ -453,14 +420,12 @@ line-height: 20px;
     justify-content: space-around;  
 }
 .slide_avatar{
-    /* position: relative; */
     bottom: 50px;
     margin-top: -30px;
     overflow: visible;
     margin-bottom: 220px auto;
     display: flex;
     margin: 0 auto;
-    /* position: absolute; */
 }
 .slide_img{
     z-index: 100;
